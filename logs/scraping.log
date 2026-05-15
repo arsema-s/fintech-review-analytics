@@ -1,0 +1,7 @@
+2026-05-15 17:58:43,618 - INFO - Starting scrape for CBE
+2026-05-15 17:58:47,282 - INFO - Collected 1000 reviews for CBE
+2026-05-15 17:58:47,282 - INFO - Starting scrape for BOA
+2026-05-15 17:58:48,749 - INFO - Collected 1000 reviews for BOA
+2026-05-15 17:58:48,751 - INFO - Starting scrape for Dashen
+2026-05-15 17:58:50,149 - INFO - Collected 1000 reviews for Dashen
+2026-05-15 17:58:51,682 - INFO - Raw dataset saved to data/raw/raw_reviews.csv

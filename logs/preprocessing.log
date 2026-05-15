@@ -1,0 +1,6 @@
+2026-05-15 17:59:32,200 - INFO - Loading raw dataset
+2026-05-15 17:59:32,791 - INFO - Initial dataset shape: (3000, 6)
+2026-05-15 17:59:32,830 - INFO - Removed 0 duplicate rows
+2026-05-15 17:59:32,834 - INFO - Removed 0 rows with missing values
+2026-05-15 17:59:32,898 - INFO - Normalized date format
+2026-05-15 17:59:32,983 - INFO - Clean dataset saved to data/raw/bank_reviews_cleaned.csv
