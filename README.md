@@ -29,6 +29,13 @@ The workflow includes:
 ```text
 fintech-review-analytics/
 │
+├── config/
+│   └── config.py
+│
+├── logs/
+│   ├── scraping.log
+│   └── preprocessing.log
+│
 ├── data/
 │   └── raw/
 │       ├── raw_reviews.csv
@@ -45,6 +52,7 @@ fintech-review-analytics/
 │
 ├── scripts/
 │   ├── scrape_reviews.py
+│   ├── preprocess_reviews.py
 │   └── test_pipeline.py
 │
 ├── src/
@@ -54,6 +62,7 @@ fintech-review-analytics/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+
 
 Task 1 — Data Collection and Preprocessing
 Objective
@@ -82,6 +91,10 @@ date	Review submission date
 bank	Bank name
 source	Review source platform
 Preprocessing Steps
+- Stable hash-based review ID generation
+- Logging for scraping and preprocessing stages
+- Separate preprocessing pipeline script
+- Centralized configuration management
 
 The following preprocessing operations were performed:
 
