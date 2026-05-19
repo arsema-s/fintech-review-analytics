@@ -322,3 +322,35 @@ The project uses:
 Database schema files are stored in:
 
 database/schema.sql
+
+Task 4 — Insights & Visualization
+
+This stage focused on analytical querying, visualization, and business recommendation generation.
+
+Implemented:
+- sentiment distribution analysis
+- average rating analysis
+- review volume comparison
+- theme extraction visualization
+- stakeholder recommendations
+
+
+# Final Insights Summary
+
+## Key Findings
+
+- Customer sentiment varies significantly across banking applications.
+- Login and OTP-related failures are among the most recurring complaints.
+- Positive reviews emphasize convenience and accessibility.
+- Average ratings indicate measurable differences in user satisfaction between banks.
+
+## Business Implications
+
+Improving application reliability, authentication systems, and transaction responsiveness may significantly improve customer satisfaction and app ratings.
+
+## Strategic Recommendations
+
+- Improve application stability
+- Strengthen QA testing
+- Enhance customer support responsiveness
+- Monitor recurring complaint themes continuously
