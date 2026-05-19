@@ -118,6 +118,8 @@ Output Files
 File	Description
 raw_reviews.csv	Initial scraped dataset
 bank_reviews_cleaned.csv	Cleaned Task 1 dataset
+
+
 Task 2 — Sentiment and Thematic Analysis
 Objective
 
@@ -301,3 +303,22 @@ Arsema Esayas
 License
 
 This project is for educational and academic purposes.
+
+Task 3 — Database Engineering
+
+A normalized PostgreSQL database schema was implemented for storing fintech customer reviews and NLP outputs.
+
+The database architecture includes:
+
+- banks table
+- reviews table
+- sentiments table
+
+The project uses:
+- PostgreSQL
+- SQLAlchemy
+- psycopg2
+
+Database schema files are stored in:
+
+database/schema.sql
